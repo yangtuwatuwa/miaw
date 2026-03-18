@@ -1,0 +1,8 @@
+@import "tailwindcss";
+@import '@splidejs/react-splide/css';
+
+@layer base {
+  body {
+    @apply bg-slate-100 min-h-screen;
+  }
+}
