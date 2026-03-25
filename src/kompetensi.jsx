@@ -10,7 +10,7 @@ function kopeten() {
             <hr className='w-[40%] mx-auto border' />
 
             <article className=' w-full mt-10 '>
-                <Largecard image="monitor.svg" title="pengembangan perangkat lunak dan gim" context="ini penjelasannya lah" / >
+                <Largecard image="monitor.svg" title="pengembangan perangkat lunak dan gim" context={<Button isinya="coba dah"/>} / >
 
             </article>
         </main>

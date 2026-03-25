@@ -18,7 +18,7 @@ function TentangLetris() {
 
         </div>
         <div className=' w-fit'>
-            <img src="fotoletris.jpg" alt="" width={500}  className=' rounded-3xl shadow-2xl mr-21'/>
+            <img src="fotoletris.jpg" alt="" width={500}  className=' rounded-3xl shadow-2xl mr-21 '/>
         </div>
       </main>
 
