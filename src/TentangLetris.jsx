@@ -1,5 +1,5 @@
 import React from 'react'
-import Litlecard from './komponen/litlecard'
+import Litlecard from './komponen/Litlecard.jsx'
 function TentangLetris() {
   return (
     <div>

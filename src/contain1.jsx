@@ -6,7 +6,7 @@ function contain1() {
     <div>
       <main>
         <div className='flex justify-center pt-5 w-full ' >
-            <div className='w-[95%]'>
+            <div className='w-300'>
 
             <Splide arial-label="eaa"
             options={ {

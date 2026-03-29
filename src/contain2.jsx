@@ -1,5 +1,5 @@
 import React from 'react'
-import Litlecard from './komponen/litlecard'
+import Litlecard from './komponen/Litlecard.jsx'
 import Card from './komponen/card'
 function contain2({children}) {
   return (
