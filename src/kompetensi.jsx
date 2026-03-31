@@ -9,7 +9,7 @@ function kopeten() {
             <h2 className='text-center mb-5 '>kami memiliki beberapa program keahlian yang sangat relevalan dengan kebutuhan industri sekarang</h2>
             <hr className='w-[40%] mx-auto border' />
 
-            <article className=' w-full mt-10 ' >
+            <article className='w-full mt-10'>
                 <Largecard image="monitor.svg" title="pengembangan perangkat lunak dan gim" context={<Button isinya="coba dah"/>} / >
 
             </article>
