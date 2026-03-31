@@ -5,7 +5,8 @@ import React from 'react'
 import Kompeten from "./kompetensi";
 import Contain1 from "./contain1";
 import TentangLetris from "./TentangLetris";
-export default function App() {
+
+export default function Home() {
   return (
     <div>
       <Header/>
@@ -16,5 +17,7 @@ export default function App() {
       <TentangLetris/>
       <Kompeten/>
     </div>
+
+
   )
 }
