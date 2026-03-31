@@ -3,7 +3,7 @@ import Litlecard from './komponen/Litlecard.jsx'
 function TentangLetris() {
   return (
     <div>
-      <main className='flex gap-10 pt-10 justifyL-center'>
+      <main className='flex gap-10 pt-10 justify-center'>
         <div className='w-[40%] '>
           <h1 className='text-4xl font-bold pb-10'>SMK letris pamulang</h1>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos. Lorem, ipsum dolor sit amet consectetur adi Lorem, ipsum. lorem2 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos. Lorem, ipsum dolor sit amet consectetur adi Lorem, ipsum. lorem2 </p>
@@ -12,7 +12,7 @@ function TentangLetris() {
         <Litlecard nama="8" isi="Program keahlian" />
         <Litlecard nama="75+" isi="Tenaga pengajar" />
         <Litlecard nama="12" isi="Tahun berdiri" />
-        <Litlecard nama="100+" isi="Siswa berprestasi"/>
+        <Litlecard nama="100+"a isi="Siswa berprestasi"/>
           
         </div>
 
