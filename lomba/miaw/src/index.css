@@ -1,0 +1,14 @@
+@import "tailwindcss";
+@import '@splidejs/react-splide/css';
+
+@layer base {
+  body {
+    @apply bg-slate-200 min-h-screen;
+  }
+}
+
+@theme {
+  --breakpoint-xs: 30rem;
+  --breakpoint-2xl: 100rem;
+  --breakpoint-3xl: 120rem;
+}
