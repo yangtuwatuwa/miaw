@@ -3,7 +3,7 @@ import Largecard from './komponen/largecard'
 import Button from './komponen/Initombol'
 
 function kopeten() {
-  return (
+  return (   
     <div>
         <main className='mt-20  w-full '>
             <h1 className='text-center text-3xl font-bold mb-5'>Program keahlian</h1>
