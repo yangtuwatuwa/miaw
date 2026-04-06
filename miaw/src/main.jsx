@@ -1,24 +1,14 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
+import AppRoutes from './route.jsx'
 import './index.css'
-import Home from './Home.jsx'
-import Ppdb from './page/ppdb/Ppdb.jsx'
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
-// import App from '../App.jsx'
-
+import HomePage from './pages/HomePage.jsx'
+import PpdbPage from './pages/ppdb/PpdbPage.jsx'
 
 createRoot(document.getElementById('root')).render(
-  
-  <BrowserRouter>
-  <StrictMode>
-    
 
-    <Routes>
-      <Route path='/' element={<Home/>}/>
-      <Route path='/ppdb' element={<Ppdb/>} />
-    </Routes>
-    
-  </StrictMode>
-  </BrowserRouter>,
+    <StrictMode>
+      <AppRoutes />   
+    </StrictMode>
+ ,
 )
-
