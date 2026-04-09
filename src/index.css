@@ -2,7 +2,106 @@
 @import '@splidejs/react-splide/css';
 
 @layer base {
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
   body {
     @apply bg-slate-100 min-h-screen;
+    @apply bg-slate-200 min-h-screen;
   }
+
+
+
+@property --angle{
+  syntax: "<angle>";
+  initial-value: 0deg;
+  inherits: false;
+}
+
+
+
+
+/* .border{
+    content: '';
+    position: absolute;
+    background-color: white;
+    width: 31rem;
+    height: 23.5rem;
+    z-index: -1;
+    border-radius: 1rem;
+    
+    
+  } */
+
+  
+  @keyframes spin {
+    from{
+      --angle:0deg;
+    }
+    to{
+      --angle:360deg;
+    }
+  }
+
+
+.kucing{
+  background: transparent;
+  box-shadow: 0 0 40px 10px hsl(0, 1%, 81%);
+}
+
+.kukur input{
+  background-color: rgba(255, 255, 255, 0.1);
+  /* -webkit-backdrop-filter: blur(10px);  */
+}
+
+.kukur input::placeholder{
+  color: rgba(240, 248, 255, 0.685);
+  font-family: sans-serif;
+  
+}
+
+.kucing button{
+  background: linear-gradient(90deg,rgba(42, 123, 155, 1) 30%, rgba(16, 57, 224, 1) 100%, rgba(83, 191, 237, 1) 70%);;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
+
+}
+
+  .payB{
+    width: 100%;
+    background-image: url(../public/another1.png);
+    height: 100dvh ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center ;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    
+    display: grid;
+
+  }
+}
+
+
+
+.isi1{
+  background: linear-gradient(0deg,rgba(42, 123, 155, 1) 30%, rgba(16, 57, 224, 1) 100%, rgba(83, 191, 237, 1) 70%);;
+}
+
+.warna{
+  width: 90rem;
+  background-color: aqua;
+  height: 100rem;
+  z-index: 1;
+}
+
+
+
+@theme {
+  --breakpoint-xs: 30rem;
+  --breakpoint-2xl: 100rem;
+  --breakpoint-3xl: 120rem;
 }
