@@ -85,10 +85,7 @@
   }
 }
 
-.payB img{
-  box-shadow: 0 0 30px 10px hsl(0, 1%, 81%);
-  border-radius: 100px;
-}
+
 
 .isi1{
   background: linear-gradient(0deg,rgba(42, 123, 155, 1) 30%, rgba(16, 57, 224, 1) 100%, rgba(83, 191, 237, 1) 70%);;
