@@ -3,7 +3,7 @@ import React from 'react'
 function banneratas() {
   return (
     <div className='relative w-full h-screen overflow-hidden '>
-        <img src="./gamabarsekolahgde.jpg" alt="" className='absolute inset-0 w-full h-full object-cover brightness-35' />
+        <img src="./atas.png" alt="" className='absolute inset-0 w-full h-full object-cover brightness-35' />
         <div className="absolute inset-0 bg-black/40"></div>
 
   <div className="relative h-full flex flex-col justify-center px-10 md:px-20 text-white  ">

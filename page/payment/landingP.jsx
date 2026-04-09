@@ -5,46 +5,34 @@ function LandingP() {
       
 return (
 
-    <div className="w-full  " >
+    <div className="payB " >
+
+ <img src="letrislogonew.png" className=" mx-auto lg:w-25 h-25" alt="" />       
+
+<audio controls autoPlay loop className="hidden" >
+    <source src="../../public/hikaru.mp3" type="audio/mpeg"/>
+
+</audio>
 
 
+{/* <div className="border"></div> */}
+
+<div className="kucing relative  rounded-xl md:w-100 lg:w-120 h-95   " >
+
+<h1 className="text-4xl mx-47 font-bold text-amber-50 mt-5" >Login</h1>
+
+<div className="kukur grid  mt-7 gap-5 " >
+    <input type="text" placeholder="NISN" className="font-bold pl-5  w-100 h-18 mx-auto  rounded-xl text-amber-100 " />
+    <input type="password" placeholder="Password" className="font-semibold pl-5 mx-auto w-100 h-18 rounded-xl text-amber-100 " />
     
-    <div className="flex rounded-2xl  sm:w-fit bg-transparent mx-auto mt-20 font-sans font-bold " >
-
-        <audio className="w-0" controls autoPlay >
+    <button className="rounded-xl w-105 h-16 mx-auto mb-10 mt-8 font-bold text-2xl text-gray-200 " >Masuk</button>
+</div>
+ 
+</div>
     
-    <source src="hikaru.mp3" type="audio/mp3"/>
-    </audio>
-
-       <div className="flex w-fit shadow-2xl  ">
-        
-        <div className="bg-[url(kaori.png)] bg-cover brightness-20 rounded-bl-2xl rounded-tl-2xl   sm:w-55 h-90" src="kaori.png" alt="" >
-            <h1 className="font-bold text-amber-50  " >Welcome !</h1>
-             </div>
-
-            <div className="bg-white sm:rounded-br-2xl sm:rounded-tr-2xl  sm:w-70 h-90 items-center grid justify-center " >
-            
-            <h1>Masuk ke akun anda</h1>
-            
-            <div className="grid items-center " >
-
-        <h2>NISN</h2>
-        <input className="bg-amber-500 shadow-2xl rounded-md sm:h-7" type="text" />
-        <h2>Password</h2>
-        <input className="bg-amber-500 shadow-2xl rounded-md sm:h-7 " type="text" />
-
-        <button className="bg-blue-500 sm:h-10 rounded-2xl hover: cursor-pointer " >Enter</button>   
-
-            </div>
-            
-            </div>
-        
-        </div> 
-            
+    
 
 
-        
-    </div>
     </div>
 )
 
